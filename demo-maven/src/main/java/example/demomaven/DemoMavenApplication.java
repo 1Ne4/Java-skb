@@ -2,7 +2,11 @@ package example.demomaven;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -87,11 +91,11 @@ class Engine implements Interf{
 
 @Component
 class CarService{
-    private Engine engine;
-    private Car3 car;
+    private Interf engine;
+    private Interf car;
 
-    public CarService(Engine engine, Car3 car) {
+    public CarService(Interf engine, Interf car3) {
         this.engine = engine;
-        this.car = car;
+        this.car = car3;
     }
 }
