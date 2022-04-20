@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-maven/homework-6.iml" filepath="$PROJECT_DIR$/demo-maven/homework-6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hmwrk-8/homework-8.iml" filepath="$PROJECT_DIR$/hmwrk-8/homework-8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/jfreechart-example.iml" filepath="$PROJECT_DIR$/.idea/jfreechart-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SKB.iml" filepath="$PROJECT_DIR$/.idea/SKB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework-6/demo-maven.iml" filepath="$PROJECT_DIR$/homework-6/demo-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework-8/hmwrk-8.iml" filepath="$PROJECT_DIR$/homework-8/hmwrk-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework-10/homework-10.iml" filepath="$PROJECT_DIR$/homework-10/homework-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework-11/homework-11.iml" filepath="$PROJECT_DIR$/homework-11/homework-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework-9/homework-9.iml" filepath="$PROJECT_DIR$/homework-9/homework-9.iml" />
     </modules>
   </component>
 </project>
